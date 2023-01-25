@@ -26,7 +26,7 @@ const About: NextPage = () => {
           What I am doing
         </h4>
 
-        <div className="grid gap-6 my-9 md:grid-cols-2">
+        <div className="grid gap-6 my-9 md:grid-cols-1 lg:grid-cols-2 ">
           {/* children's initial and animate property should be same as the parent during a stagger effect  */}
           {services.map((service) => (
             <div

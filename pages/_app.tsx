@@ -7,7 +7,7 @@ import {ThemeProvider} from 'next-themes'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider attribute="class">
-      <div className="grid grid-cols-12 gap-6 px-5 md:px-20 lg:px-24 my-14 ">
+      <div  className="grid grid-cols-12 gap-6 px-5 md:px-20 lg:px-24 my-14 " >
         <div className="col-span-12 lg:col-span-3 md:col-span-4 bg-white dark:bg-dark-500 rounded-2xl p-2 text-center shadow-custom-light dark:shadow-custom-dark">
           <Sidebar />
         </div>

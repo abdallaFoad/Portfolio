@@ -15,7 +15,7 @@ module.exports = {
       colors: {
         facebook: "#1877F2",
         linkedin: "#0A66C2",
-        github: "#0d1117",
+        github: "#fff",
         green: {
           DEFAULT: "#00F260",
         },
