@@ -78,6 +78,7 @@ export const languages: Skill[] = [
 
 export const projects: IProject[] = [
   {
+    id: 1,
     name: "Food Delivery App",
     image_path: "/images/food.jpg",
     github_url: "https://github.com/abdallaFoad/Food-Delivery-App-Ecommerce",
@@ -87,6 +88,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "react-redux", "sass", "reactstrap", "react-reveal"],
   },
   {
+    id: 2,
     name: "Tesla",
     image_path: "/images/tesla.png",
     github_url: "https://github.com/abdallaFoad/Tesla-Clone",
@@ -96,6 +98,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "sass", "styled-components"],
   },
   {
+    id: 3,
     name: "MoviesApp",
     image_path: "/images/moviesApp.png",
     github_url: "https://github.com/abdallaFoad/MoviesApp-React",
@@ -105,6 +108,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "sass", "axios", "API"],
   },
   {
+    id: 4,
     name: "Authentication",
     image_path: "/images/authentication.png",
     github_url: "https://github.com/abdallaFoad/Authentication-React",
@@ -114,6 +118,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "sass", "firebase", "contextAPI", "react-bootstrap"],
   },
   {
+    id: 5,
     name: "Travel App",
     image_path: "/images/travel.png",
     github_url: "https://github.com/abdallaFoad/Travelo-React",
@@ -123,6 +128,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "styled-components", "scrollreveal"],
   },
   {
+    id: 6,
     name: "Multipurpose",
     image_path: "/images/multipurpose.png",
     github_url: "https://github.com/abdallaFoad/Multipurpose-React",
@@ -132,6 +138,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "sass", "framer-motion"],
   },
   {
+    id: 7,
     name: "Event App",
     image_path: "/images/eventReact.png",
     github_url: "https://github.com/abdallaFoad/Event-React",
@@ -141,6 +148,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "Redux", "Bootstrap", "swiper"],
   },
   {
+    id: 8,
     name: "Todo App",
     image_path: "/images/todo.png",
     github_url: "https://github.com/abdallaFoad/Todo-App-React",
@@ -150,6 +158,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "Redux", "Bootstrap", "emotion/styled"],
   },
   {
+    id: 9,
     name: "Weather App",
     image_path: "/images/weather.png",
     github_url: "https://github.com/abdallaFoad/weather-app",
@@ -159,6 +168,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "API", "emotion/styled"],
   },
   {
+    id: 10,
     name: "TesterElzero",
     image_path: "/images/elzeroCss.png",
     github_url: "https://github.com/abdallaFoad/HTML-CSS-Template_Four-",
@@ -168,6 +178,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "JavaScript"],
   },
   {
+    id: 11,
     name: "Corrus",
     description:
       "Build structure Corrus template by using HTML, CSS to build structure and Use JS to make actions",
@@ -177,6 +188,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "Sass", "JavaScript"],
   },
   {
+    id: 12,
     name: "Azura",
     image_path: "/images/azura.png",
     github_url: "https://github.com/abdallaFoad/azura",
@@ -187,6 +199,7 @@ export const projects: IProject[] = [
   },
 
   {
+    id: 13,
     name: "Hangman",
     image_path: "/images/hangman.png",
     github_url: "https://github.com/abdallaFoad/Hangman_Game",
@@ -196,6 +209,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "JS"],
   },
   {
+    id: 14,
     name: "Memory_Game",
     image_path: "/images/memoryGame.png",
     github_url: "https://github.com/abdallaFoad/Memory_Game",
@@ -204,6 +218,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "JS"],
   },
   {
+    id: 15,
     name: "Leon",
     image_path: "/images/leon.png",
     github_url: "https://github.com/abdallaFoad/HTML-CSS-Template_Two",
@@ -212,6 +227,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS"],
   },
   {
+    id: 16,
     name: "Kasper",
     image_path: "/images/kasper.png",
     github_url: "https://github.com/abdallaFoad/HTML-CSS-Template_Three",
