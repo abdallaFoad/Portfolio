@@ -2,7 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   background-color: black;
-  font-family:  sans-serif;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right bottom, #00f260, #0575e6);
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+

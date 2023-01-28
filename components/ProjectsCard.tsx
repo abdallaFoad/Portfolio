@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FunctionComponent, useState } from "react";
-import { AiFillGithub, AiFillProject } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { IProject } from "../types";
 import { motion } from "framer-motion";
@@ -9,12 +9,20 @@ import { fadeInUp, stagger } from "@/animations";
 const ProjectCard: FunctionComponent<{
   project: IProject;
   showDetail: number | null;
-  setShowDetail: (id:number | null) => void;
+  setShowDetail: (id: number | null) => void;
 }> = ({
-  project: { id, name, image_path, category, description, github_url, key_techs }, 
-showDetail, setShowDetail}) => {
-  
-
+  project: {
+    id,
+    name,
+    image_path,
+    category,
+    description,
+    github_url,
+    key_techs,
+  },
+  showDetail,
+  setShowDetail,
+}) => {
   return (
     <div>
       <Image
@@ -33,10 +41,12 @@ showDetail, setShowDetail}) => {
           variants={stagger}
           animate="animate"
           initial="initial"
-          className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100"
+          className={
+            `absolute top-0 left-0 z-10 grid w-full h-auto p-2 lg:p-10 text-black bg-gray-100 lg:grid-cols-2 sm:grid-cols-1 gap-x-12 dark:text-white dark:bg-dark-100`
+          }
         >
           <motion.div variants={stagger}>
-            <motion.div variants={fadeInUp}>
+            <motion.div variants={fadeInUp} className='border-4 border-green-500'>
               <Image
                 src={image_path}
                 alt={name}

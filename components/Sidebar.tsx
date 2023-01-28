@@ -34,9 +34,9 @@ const Sidebar = () => {
         Front-end Developer
       </p>
       <a
-        href=""
+        href="/assets/Abdullah Fouad Ibrahim.pdf"
         className=" px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full flex items-center justify-center text-lg md:text-sm"
-        download="name"
+        download="Abdullah Fouad Ibrahim.pdf"
       >
         <GiTie className="w-6 h-6" /> Download Resume
       </a>
