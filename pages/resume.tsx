@@ -1,7 +1,8 @@
 import Bar from "../components/Bar";
 import { languages } from "../data";
 import { motion } from "framer-motion";
-import {fadeInUp, routeAnimate} from '../animations'
+import { fadeInUp, routeAnimate } from '../animations';
+import Head from "next/head";
 
 const Resume = () => {
 
@@ -12,6 +13,9 @@ const Resume = () => {
       animate="animate"
       initial="initial"
     >
+      <Head>
+        <title>Front-end Developer | Resume | Abdalla Foad </title>
+      </Head>
       {/* Education */}
       <motion.div
         animate="animate"

@@ -5,6 +5,7 @@ import { projects as projectsData } from "../data";
 import { Category } from "../types";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnimate, stagger } from "@/animations";
+import Head from "next/head";
 
 const Projects = () => {
   const [projects, setProjects] = useState(projectsData);
@@ -33,6 +34,9 @@ const Projects = () => {
       animate="animate"
       initial="initial"
     >
+      <Head>
+        <title>Front-end Developer | Projects | Abdalla Foad </title>
+      </Head>
       <ProjectsNavbar
         handlerFilterCategory={handlerFilterCategory}
         active={active}

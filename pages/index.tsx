@@ -10,6 +10,7 @@ import { services } from "../data";
 import { Service } from "../types";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnimate, stagger } from "../animations";
+import  Head  from "next/head";
 
 const About = ({ endpoint }:any)  => {
   return (
@@ -19,6 +20,9 @@ const About = ({ endpoint }:any)  => {
       animate="animate"
       initial="initial"
     >
+      <Head>
+        <title>Front-end Developer | Portfolio | Abdalla Foad </title>
+      </Head>
       <h6 className="my-3 text-base font-medium">
         I&apos;m a Front end developer, I can design any website, complicated
         designs, dynamic templates, and responsive to modern technology. I
